@@ -1,0 +1,15 @@
+.CardMini {
+    display: flex;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.CardMini__info {
+    display: flex;
+}
+.CardMini__btn {
+    height: 100%;
+}
+.marginR10 {
+    margin-right: 10px;
+}

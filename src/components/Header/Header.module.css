@@ -1,0 +1,20 @@
+.Header {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    border-bottom: 1px solid #303f9f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.Header__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+.formControl {
+    margin-left: 100px;
+    width: 200px;
+}
