@@ -54,7 +54,6 @@ const Header = (props) => {
                 <Button size="small" type={"submit"} color={'primary'} variant="contained">Найти</Button>
                 <Button size="small" disabled={disabledResetBtn}  onClick={resetHandler} color={'primary'} variant="contained">Сбросить</Button>
             </form>
-
             <form onSubmit={searchStatus} className={classes.Header__form}>
                 <FormControl className={classes.formControl}>
                     <InputLabel id="demo-simple-select-label">status</InputLabel>
@@ -69,7 +68,7 @@ const Header = (props) => {
                         <MenuItem value={'admin'}>admin</MenuItem>
                     </Select>
                 </FormControl>
-                <Button size="small" type={"submit"} color={'primary'} variant="contained">Найти</Button>
+                <Button onClick={()=> setDisabledBtn(false)} size="small" type={"submit"} color={'primary'} variant="contained">Найти</Button>
             </form>
         </div>
     )

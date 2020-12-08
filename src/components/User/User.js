@@ -4,6 +4,7 @@ import OpenCard from "./OpenCard/OpenCard";
 
 const User = (props) => {
     const [show, setShow] = useState(false)
+
     const showHandler = () => {
         setShow(prevState => !prevState)
     }

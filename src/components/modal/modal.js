@@ -74,7 +74,7 @@ export default function SimpleModal(props) {
                 <TextField required className={classes.input} id="email" type={'email'} label="Email" variant="outlined" />
                 <TextField required className={classes.input} id="password" type={'password'} label="Password" variant="outlined" />
                 <TextField required className={classes.input} id="phoneNumber" type={'tel'} label="Тел(82201182290)" variant="outlined" />
-                <TextField required className={classes.input} id="status" label="Статус" variant="outlined" />
+                <TextField required className={classes.input} helperText='Client, partner, admin' id="status" label="Статус" variant="outlined" />
                 <Button type={"submit"} size="small" color={'primary'} variant="contained">Добавить пользователя</Button>
             </form>
 
